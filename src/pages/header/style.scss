@@ -1,0 +1,67 @@
+header
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 0;
+  width: 714px;
+  height: 10vh;
+
+  a
+  {
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    font: 300 20px var(--font-family);
+    color: var(--black);
+
+    > .arrow
+    {
+      width: 10px;
+      height: 10px;
+
+      margin: 0 5px;
+      transform: rotate(225deg);
+    }
+  }
+
+  @media (max-width: 750px) {
+    width: 98%;
+
+    margin: 0 0 0 10px;
+  }
+}
+
+.mode
+{
+  display: flex;
+  align-items: center;
+  
+  cursor: pointer;
+}
+
+figure
+{
+  display: flex;
+  align-items: center;
+  
+  height: 50px;
+
+  img
+  {
+    width: 200px;
+    padding-right: 10px;
+  }
+
+  figcaption
+  {
+    font: 400 20px/50px var(--font-family);
+
+    span
+    {
+      opacity: 0.3;
+    }
+  }
+}

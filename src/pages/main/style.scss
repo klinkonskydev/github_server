@@ -1,0 +1,61 @@
+h1
+{
+  font: 600 48px/60px var(--font-family);
+
+  color: var(--black);
+
+  @media (max-width: 750px) {
+    font-size: 1.5em;
+  }
+}
+
+form
+{
+  width: 714px;
+  height: 72px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+
+  margin: 2rem 0;
+  border-radius: 5px;
+  @media (max-width: 750px) {
+    width: 95%;
+  }
+}
+
+input, 
+button
+{
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input
+{
+  background-color: var(--white);
+  color: var(--black);
+  padding-left: 15px;
+
+  font: 400 17px var(--font-family);
+  border-radius: 
+    var(--border_radius)
+    0 0
+    var(--border_radius)
+  ;
+}
+
+button
+{
+  background-color: #04D361;
+  color: var(--white);
+
+  border-radius: 
+    0
+    var(--border_radius)
+    var(--border_radius)
+    0
+  ;
+}
